@@ -5,7 +5,7 @@
 
 (asdf:defsystem #:cl-constant-time
   :description "Timing-safe cryptographic operations for Common Lisp"
-  :author "CLPIC Project"
+  :author "Parkian Company LLC"
   :license "MIT"
   :version "1.0.0"
   :serial t
