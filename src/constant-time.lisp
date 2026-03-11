@@ -1,3 +1,6 @@
+;;;; Copyright (c) 2024-2026 Parkian Company LLC. All rights reserved.
+;;;; SPDX-License-Identifier: BSD-3-Clause
+
 ;;;; constant-time.lisp - Timing-safe cryptographic operations
 ;;;;
 ;;;; This module implements constant-time comparison and arithmetic operations
