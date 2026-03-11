@@ -1,0 +1,45 @@
+# FASL files
+*.fasl
+*.fas
+*.lib
+*.o
+*.so
+*.dylib
+
+# SBCL
+*.x86f
+*.x86-64f
+*.lx64fsl
+
+# CCL
+*.dx64fsl
+*.dx32fsl
+*.wx64fsl
+*.wx32fsl
+
+# ABCL
+*.abcl
+
+# ECL
+*.eclh
+
+# CLISP
+*.mem
+
+# Editor backups
+*~
+\#*\#
+.\#*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Build artifacts
+build/
+dist/

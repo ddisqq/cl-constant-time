@@ -1,0 +1,18 @@
+cl-constant-time
+================
+
+This library was extracted from the CLPIC (Common Lisp P2P Intellectual
+Property Chain) project.
+
+Original source: src/crypto/constant-time.lisp
+Extraction date: 2026-03-11
+
+The constant-time algorithms implemented here follow NIST guidelines for
+timing side-channel resistance as documented in:
+
+- NIST SP 800-56A Rev.3: Recommendation for Pair-Wise Key-Establishment Schemes
+- NIST SP 800-56B Rev.2: Recommendation for Pair-Wise Key-Establishment Using IFC
+- NIST SP 800-56C Rev.2: Recommendation for Key-Derivation Methods
+
+This is a standalone library with no external dependencies beyond ANSI Common
+Lisp (with SBCL extensions for raw memory operations).
