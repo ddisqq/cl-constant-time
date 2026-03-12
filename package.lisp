@@ -37,6 +37,7 @@
    #:free-secure-buffer
    #:with-locked-memory
    #:secure-buffer-data
+   #:secure-buffer-p
 
    ;; Testing utilities
    #:measure-timing-variability
