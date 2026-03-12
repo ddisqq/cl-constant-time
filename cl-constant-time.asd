@@ -21,4 +21,6 @@
   :components ((:module "test"
                 :components ((:file "test-constant-time"))))
   :perform (test-op (o c)
-                    (uiop:symbol-call :cl-constant-time.test :run-tests)))
+                    (let ((result (uiop:symbol-call :cl-constant-time.test :run-tests)))
+                      (unless result
+                        (error "Tests failed")))))
